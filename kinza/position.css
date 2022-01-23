@@ -1,0 +1,67 @@
+.first{
+    height: 200px;
+    width: 200px;
+    background-color: maroon;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 3;
+}
+.second{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    z-index: 2;
+
+    top: 100px;
+    left: 150px;
+}
+.third{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+
+    background-color: pink;
+    top: 150px;
+    left: 200px;
+    z-index: -1;
+}
+.f1{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    float: left;
+   
+}
+.f2
+{
+    height: 200px;
+    background-color: purple;
+    width: 200px;
+    /* clear: both; */
+    float: right;
+  
+}
+.f3{
+    height: 200px;
+    width: 200px;
+    background-color: seagreen;
+    clear: both;
+}
+
+#email{
+    margin-top: 50px;
+    width: 20%;
+    padding: 10px 10px 10px 40px;
+    border-radius: 4px;
+    background: url("e.png");
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: 4px;
+    outline: none;
+    
+}
+#email:focus{
+    box-shadow: 2px 1px 3px green;
+}
